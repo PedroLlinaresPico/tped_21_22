@@ -1,0 +1,104 @@
+body {
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    width: 100%;  
+}
+
+#cajaPrincipal {
+    width: 100vw;
+    height: 100vh;
+    background-image:url(imág/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20vw;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color:white;
+    position:absolute;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a.Enlace:hover{
+    position:relative;
+    top:25px;
+    left:25px;
+    text-decoration: line-through; text-decoration: aqua;
+}
+
+    #cajaCentro {
+    height: 100vh;
+    padding: 15vw;
+}
+
+
+a.one:link {text-decoration: none;}
+a.one:visited {text-decoration: none;}
+a.one:hover { text-decoration: line-through; text-decoration-color: red; color: red;}
+a.one:active{ background-color: transparent;color: none;}
+
+a.two:link { text-decoration: none;}
+a.two:visited {text-decoration:none;}
+a.two:hover {text-decoration-color: rgb(99, 99, 152); color:rgb(99, 99, 152);text-decoration: underline;}
+a.two:active{ background-color: transparent;color:none}
+
+a.three:link { text-decoration: none;}
+a.three:visited { text-decoration: none}
+a.three:hover{ text-decoration-color:rgb(99, 99, 152); color:rgb(99, 99, 152);text-decoration: underline;}
+a.three:active{ background-color: transparent;color: none;}
+
+a.four:link {text-decoration: none;}
+a.four:visited{text-decoration: none;}
+a.four:hover{text-decoration: underline;}
+a.four:active{background-color: transparent;color:none}
+
+h1 {
+    font-size: 64px;
+    line-height: 104px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 18px;
+    color: darkgray;
+}
+
+p {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#cajaPie {
+    height: 100vh;
+    background-color:black;
+}
+
+#cajaSubPie{
+    height:100vh;
+    background-color:white;
+}
+
+ol {
+    list-style: none;
+    font-size: 50px;
+    font-weight: 50pt;
+    color:white;
+    padding: 20vh;
+}
+dt{
+    font-family: verdana;
+    background-color:white;
+    color: black;
+}
+
+li {
+    padding: 10px;
+}
