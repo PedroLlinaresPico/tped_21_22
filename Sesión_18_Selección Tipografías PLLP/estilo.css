@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dosis:wght@500&family=Lily+Script+One&family=Montserrat+Alternates:ital,wght@1,500&family=Oswald:wght@200&family=Pacifico&family=Playfair+Display:ital@1&family=Press+Start+2P&family=Rampart+One&family=Reggae+One&family=UnifrakturCook:wght@700&display=swap');
+
+body {
+    font-size: 80%;
+    background-color: rgb(35, 31, 31);
+    background-size:contain;
+}
+
+section {
+    background-image:url(imag/patronfondo2.jpg);
+    background-size:auto;
+}
+
+h1{
+    font-size: 28px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.orig{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery {
+    margin: 5px;
+    border: 2px solid rgb(122, 121, 121);
+    border-style: dashed;
+    height: fit-content;
+    margin-bottom: 12px;
+    float: left;
+    width: 30%;
+    height: 500px;
+    overflow:auto;
+    background-color: rgb(83, 75, 75);
+}
+  
+.desc {
+    padding: 10px;
+    text-align: left;
+}
+
+#dosis{
+    font-family:'Dosis', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+
+#montserrat {
+    font-family:'Montserrat Alternates', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+
+#oswald {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+
+#playfair{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 20px;
+}
+    
+#press {
+    font-family:'Press Start 2P', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+#rampart {
+    font-family:'Rampart One', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+#reggae{
+    font-family:'Reggae One', cursive;
+    color:white;
+    font-size: 20px;
+}
+
+#lily{
+    font-family: 'Lily Script One', cursive;
+    color:white;
+    font-size: 20px;
+}
+
+#comforter{
+    font-family: 'Comforter Brush', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+#unifraktur{
+    font-family:'UnifrakturCook', cursive;
+    color:white;
+    font-size: 20px;
+}
