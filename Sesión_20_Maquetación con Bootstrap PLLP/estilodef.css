@@ -25,21 +25,19 @@ section{
     width: 40%;
     height: 60vw;
     background-color: chocolate;
-    margin: 5px;
+    padding: 5px;
 }
 
 article{
     width:60%;
     height:60vw;
     background-color: crimson;
-    margin: 5px;
+    padding: 5px;
 }
 
 header{
-    width:20%;
     height:5vw;
     background-color:blueviolet;
-    float: center;
 }
 
 footer{
