@@ -1,0 +1,53 @@
+header {    
+    align-content: center;
+}
+
+.contenedorVertical {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color: rgb(2, 159, 2);
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(75, 136, 138);
+}
+
+#botonCentral {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+}
+
+#botonCentral * {
+    padding: 20px;
+}
+
+.card {
+    border-style: none;
+}
+
+footer {
+    height: 300px;
+}
+#botonvideolibrary {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    background-color: rgb(186, 186, 235);
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
