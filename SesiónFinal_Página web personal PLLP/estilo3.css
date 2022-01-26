@@ -19,6 +19,7 @@ p{
     width: 100%;
     image-resolution: 100%;
     display: block;
+    padding: 5%;
 }
 
 .navbar-brand img{
